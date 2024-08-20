@@ -1,0 +1,31 @@
+{
+  "name": "gkrcoder",
+  "version": "1.0.0",
+  "description": "This is my first npm package as a trial to learn how to build a npm package",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon  index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauravKesh/package1.git"
+  },
+  "keywords": [
+    "gkrcoder",
+    "first",
+    "beginner"
+  ],
+  "author": "Gaurav Kesh Roushan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GauravKesh/package1/issues"
+  },
+  "homepage": "https://github.com/GauravKesh/package1#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
